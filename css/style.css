@@ -1,0 +1,244 @@
+    /* common starts */
+             
+    /* fonts starts */
+@font-face {
+    font-family: Inconsolata-Regular;
+    src: url(../fonts/Inconsolata/Inconsolata-Regular.ttf);
+}
+@font-face {
+    font-family: PlayfairDisplay-Regular;
+    src: url(../fonts/Playfair_Display/PlayfairDisplay-Regular.ttf);
+}
+@font-face {
+    font-family: PlayfairDisplay-Italic;
+    src: url(../fonts/Playfair_Display/PlayfairDisplay-Italic.ttf);
+}
+@font-face {
+    font-family: PlayfairDisplay-Bold;
+    src: url(../fonts/Playfair_Display/PlayfairDisplay-Bold.ttf);
+}
+@font-face {
+    font-family: PlayfairDisplay-Black;
+    src: url(../fonts/Playfair_Display/PlayfairDisplay-Black.ttf);
+}
+    /* fonts ends */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: PlayfairDisplay-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+    /* common ends */
+
+    /* header starts */
+header {
+    padding: 20px 0;
+}
+.container {
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+}
+.logo {
+    width: 10%;
+    float: left;
+    margin-top: 3px;
+}
+.logo img {
+    width: 100%;
+}
+.menu {
+    width: 65%;
+    float: right;
+}
+.menu ul {
+    float: right;
+}
+.menu ul li {
+    list-style: none;
+    float: left;
+}
+.menu ul li a {
+    margin: 0 60px;
+    padding: 4px 2px 3px;
+    display: inline-block;
+    color: #626262;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.menu ul li:last-child a {
+    margin-right: 0;
+}
+.menu ul li a:hover {
+    border-bottom: 1px solid #626262;
+}
+    /* header ends */
+
+    /* banner starts */
+.banner {
+    padding: 20px 0 0;
+}
+.b_img img {
+    width: 100%;
+}
+    /* banner ends */
+
+    /* weekwnd starts */
+.perfect {
+    padding: 100px 0;
+}
+.container2 {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.c_light {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+.c_title {
+    font-size: 30px;
+    margin: 20px 0 30px;
+}
+.c_text {
+    line-height: 25px;
+}
+.row{
+    margin-bottom: 40px;
+}
+    /* weekwnd ends */
+
+    /* lifestyle starts */
+.left-content {
+    width: 48%;
+    float: left;
+}
+.left-content img {
+    width: 100%;
+}
+.right-content {
+    width: 48%;
+    float: right;
+}
+.right-content img {
+    width: 100%;
+}
+.wrapper {
+    padding: 30px 0 0;
+}
+.news {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+}
+.signup {
+    text-align: center;
+    width: 42%;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+.s_h1 {
+    color: #333333;
+    margin: 0 0 85px;
+}
+.s_form {
+    position: relative;
+    margin: 0 auto;
+}
+.s_form input {
+    background-color: transparent;
+    font-family: PlayfairDisplay-Regular;
+    font-size: 14px;
+    font-weight: 400;
+    color: #626262;
+    width: 345px;
+    height: 45px;
+    padding: 0 50px 0 10px;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+.s_form input:focus {
+    outline: 0;
+}
+.s_form button {
+    position: absolute;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    top: 14px;
+    right: 35px;
+}
+.s_form button:focus {
+    outline: 0;
+}
+.s_form button img {
+    width: 100%;
+}
+.load-more {
+    text-align: center;
+    width: 15%;
+    margin: 0 auto;
+}
+.load-more button {
+    font-family: PlayfairDisplay-Regular;
+    font-size: 20px;
+    font-weight: 400;
+    color: #626262;
+    border: .5px solid black;
+    border-radius: 0;
+    padding: 20px 30px;
+    background: transparent;
+    cursor: pointer;
+}
+.load-more button:focus {
+    outline: 0;
+}
+     /* lifestyle ends */
+
+    /* footer starts */
+.footer {
+    background-color: #f0f0f0;
+}
+.footer-container {
+    padding: 25px 0;
+    overflow: hidden;
+}
+.terms {
+    width: 30%;
+    float: left;
+    padding-top: 3px;
+}
+.terms a {
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+}
+.terms a:last-child{
+}
+.terms span {
+    padding-left: 15px;
+}
+.follow {
+    float: right;
+    padding: 5px;
+}
+.follow p {
+    color: #000000;
+}
+.follow a {
+    color: #000000;
+    padding: 0 8px;
+}
+.follow a:last-child {
+    padding-right: 0;
+}
+    /* footer ends */
